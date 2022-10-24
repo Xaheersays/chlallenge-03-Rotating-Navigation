@@ -41,12 +41,13 @@ body{
 .parent-container h1:first-of-type{
     font-weight: 900;
     color: var(--head-color);
+    line-height: 3rem;
 }
 .parent-container .div1 h6{
     color: var(--light-varient);
     font-style: italic;
     font-weight:400;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 .parent-container .div2 h2{
     margin: 20px 0px 20px 0px;
@@ -170,7 +171,9 @@ body{
 
 @media  screen and (width<500px){
     .transition-class{
-        transform: rotate(-18deg) translateY(-49px) translateX(320);
+        transform: rotate(-18deg) translateY(-49px) translateX(320px);
     }
-    
+    .div-nav{
+        background-color: rgb(39, 130, 209);
+    }
 }
