@@ -170,7 +170,7 @@ body{
 
 @media  screen and (width<500px){
     .transition-class{
-        transform: rotate(-18deg) translateY(-49px) translateX(300px);
+        transform: rotate(-18deg) translateY(-49px) translateX(320);
     }
     
 }
